@@ -1,0 +1,106 @@
+/* 基础样式 */
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* 学术风格头部 */
+.academic-header {
+    background: #003366;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.academic-header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.academic-header h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0 0;
+    font-weight: 300;
+}
+
+/* 内容区块 */
+.profile-section,
+.education-section,
+.honors-section,
+.contact-section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h3 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* 教育经历卡片 */
+.education-card {
+    background: white;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.education-card h4 {
+    color: #003366;
+    margin-top: 0;
+}
+
+/* 荣誉列表 */
+.honors-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.honors-section li {
+    background: white;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 联系方式 */
+.contact-info {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
+/* 页脚 */
+.academic-footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .academic-header h1 {
+        font-size: 2rem;
+    }
+    
+    .academic-header h2 {
+        font-size: 1.2rem;
+    }
+}
